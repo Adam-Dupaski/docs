@@ -128,15 +128,15 @@ To add the cargo type pages, follow these steps:
     e. Click **OK**.<br>
 10. Right-click the row of the navigation list in which the **Cargo Types** label is located and select **Go to page**, which will take you to the **CargoType_Overview** page. 
 11. In the **Properties** pane of the newly created page, set the **Navigation** visibility to **User**.
-12. Right-click the list view and select **Select entity...**.
+12. Right-click the list view and select **Select entity...**.<br>
 ![alt text](attachments/build-an-iot-app/select-listview.png "Selected listview")
 13. In the **Select Data Source** dialog box, select the **CargoType** entity that you just created.
 14. Keep **Database** selected for the **Type**, but clear the **Automatically fill the contents of the list view** check box.
 15. Right click the top input field with the 'No attribute selected' caption and select the **Description** attribute.
 16. Delete the other two input fields as well as the **See details** button, because you only want to show the **Description**.
 17. In order to add new 'Cargo type' items in the application you need to create a page where you can submit new cargo types. So now do the following:<br>
-    a. Right-click the row of the outer layout grid and select **Insert row above**.<br>
-    
+    a. Right-click the gray bar in the row of the outer layout grid and select **Insert row above**.<br>
+    ![alt text](attachments/build-an-iot-app/select-layout-grid-row.png "Selected row of layout grid")
     b. Select the default **full** row option.<br>
     c. Right-click the new row and select **Add widget** > **Button** > **Create button**.<br>
     d. In the **Select entity** dialog box, select **CargoType**.<br>
@@ -147,7 +147,8 @@ To add the cargo type pages, follow these steps:
 20. Click in the page so that its properties become visible in the **Properties** pane. Set the **Navigation > Visible for ** property to **User**.
 21. Return to **CargoType_Overview**, which needs the same look and feel as the other pages. Right-click the left-side column in the grid and select **Add column right**.
 * The layout grid is based on the [Bootstrap Grid system](http://getbootstrap.com/css/#grid) which enables easy responsive layout options.
-22. Click the left-side column to edit it and change the **(Column) Weight** to **1** as the weight of the columns in a layoutgrid has to add up to 12.
+22. Click the left-side column to edit it and change the **(Column) Weight** to **1** as the weight of the columns in a layoutgrid has to add up to 12.<br>
+ ![alt text](attachments/build-an-iot-app/layout-grid-columns-weights.png "Column weights need to add up to 12")
 23. In the new column (which is now the middle column), right-click and select **Add widget** > **Button** > **Open page button**.
 24. Select the **CargoType_NewEdit** page that you just created.
 25. Click the new button and change its caption to **Edit**.
@@ -169,7 +170,8 @@ To improve the look and feel of this page, follow these steps:
 2. Right-click the row with the **New** button, select **Insert row above**, then select the default **full** row option.
 3. Click **View** in the top Modeler menu bar and select **Toolbox**. 
 4. Drag the **Page title** widget from the **Toolbox** to the new row.
-5. Select the whole page, go to the **Properties** pane, and change the **Title** to **Cargo types**.
+5. Select the whole page by clicking the grayed out area, go to the **Properties** pane, and change the **Title** to **Cargo types**.<br>
+ ![alt text](attachments/build-an-iot-app/select-page.png "Select a page by clicking outside the content area")
 6. Right-click the avatar in the left-side column and select **Select image**. Enter the filter of *cargo* and select **cargotypes_black**.
 7. Save the changes, click **Run Locally**, then click **View App**.
 8. Observe the changes in the app. Looks better, right?
