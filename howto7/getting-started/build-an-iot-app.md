@@ -129,9 +129,10 @@ To add the cargo type pages, follow these steps:
 10. Right-click the row of the navigation list in which the **Cargo Types** label is located and select **Go to page**, which will take you to the **CargoType_Overview** page. 
 11. In the **Properties** pane of the newly created page, set the **Navigation** visibility to **User**.
 12. Right-click the list view and select **Select entity...**.
+![alt text](attachments/build-an-iot-app/select-listview.png "Selected listview")
 13. In the **Select Data Source** dialog box, select the **CargoType** entity that you just created.
 14. Keep **Database** selected for the **Type**, but clear the **Automatically fill the contents of the list view** check box.
-15. Drag the **Description** attribute from the **Connector** pane to the first input field in the list view.
+15. Right click the top input field with the 'No attribute selected' caption and select the **Description** attribute.
 16. Delete the other two input fields as well as the **See details** button, because you only want to show the **Description**.
 17. In order to add new 'Cargo type' items in the application you need to create a page where you can submit new cargo types. So now do the following:<br>
     a. Right-click the row of the outer layout grid and select **Insert row above**.<br>
