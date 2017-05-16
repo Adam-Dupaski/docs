@@ -136,7 +136,7 @@ To add the cargo type pages, follow these steps:
 16. Delete the other two input fields as well as the **See details** button, because you only want to show the **Description**.
 17. In order to add new 'Cargo type' items in the application you need to create a page where you can submit new cargo types. So now do the following:<br>
     a. Right-click the gray bar in the row of the outer layout grid and select **Insert row above**.<br>
-    ![alt text](attachments/build-an-iot-app/select-layout-grid-row.png "Selected row of layout grid")
+    ![alt text](attachments/build-an-iot-app/select-layout-grid-row.png "Selected row of layout grid")<br>
     b. Select the default **full** row option.<br>
     c. Right-click the new row and select **Add widget** > **Button** > **Create button**.<br>
     d. In the **Select entity** dialog box, select **CargoType**.<br>
@@ -148,7 +148,7 @@ To add the cargo type pages, follow these steps:
 21. Return to **CargoType_Overview**, which needs the same look and feel as the other pages. Right-click the left-side column in the grid and select **Add column right**.
 * The layout grid is based on the [Bootstrap Grid system](http://getbootstrap.com/css/#grid) which enables easy responsive layout options.
 22. Click the left-side column to edit it and change the **(Column) Weight** to **1** as the weight of the columns in a layoutgrid has to add up to 12.<br>
- ![alt text](attachments/build-an-iot-app/layout-grid-columns-weights.png "Column weights need to add up to 12")
+ ![alt text](attachments/build-an-iot-app/layout-grid-column-weights.png "Column weights need to add up to 12")
 23. In the new column (which is now the middle column), right-click and select **Add widget** > **Button** > **Open page button**.
 24. Select the **CargoType_NewEdit** page that you just created.
 25. Click the new button and change its caption to **Edit**.
